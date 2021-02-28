@@ -1,0 +1,7 @@
+1,Dil,Amir Khan,Preeti Zinta,Hindi,romantic-comedy,5,2015-03-31,8500000
+2,DDLJ,Kajol,Shah Rukh Khan,Hindi,romantic,4,2016-04-12,5000000
+7,krish,priyanka chopra jonas,hritik,hindi,romantic,4.0,2016-04-13,786543.0
+4,DDLJ,Shahrukh,Kajol,Hindi,romantic,3.0,1998-02-02,8765433.0
+5,ddlj2,varun,kajol,hindi,comedy,3.0,2016-02-02,746453.0
+6,Unfinished,priyanka Chopra JONAS,English,serious,3.0,2021-01-02,985734.0
+9,Force,john,hindi,serious,3.0,2012-01-09,76565.0

@@ -1,0 +1,52 @@
+4.	Add new movie in the list
+void addMovie(Movie movie,List<Movie> movie)
+
+1)Make change to the database
+2)Write the change to the file
+
+Classes->AddNewMovie.java
+		 WriteToFile.java
+		 MovieDataToDB.java(previously used)
+		 ConnectionUtil.java(previously used)
+		 
+-------------------------------------------------------------------------------		 
+5.	Serialize movie data in the provided file in the given project directory
+Void serializeMovies(List<Movies movies, String fileName)
+
+6.	Deserialize movies  from given files
+List<Movie> deserializeMovie(String filename)
+
+Classes-> SerializeDeserialize.java (Contains a main method)
+-------------------------------------------------------------------------------
+
+7.	Find the Movies realeased in entered year
+List<Movie> getMoviesRealeasedInYear(int year)
+
+Classes->FindMovieByYear.java (contains a main method)
+	     ConnectionUtil.java(previously used)
+
+---------------------------------------------------------------------------------
+8.	Find the list of movies by actor
+List<Movies> getMoviesByActor(String… actorNames)
+
+Classes-> FindMovieByActors.java(has a main method)
+	      ConnectionUtil.java(used previously)
+	
+-----------------------------------------------------------------------------------
+9.	Update Movie Rating
+Void updateRatings(Movie movie, double rating ,List<Movie> movies)
+
+Classes-> UpdateMovieRating.java(has main method)
+		  ConnectionUtil.java
+		 
+-----------------------------------------------------------------------------------
+10.	Update Business Done by Movie
+Void updateBusiness(Movie movie, double amount,List<Movie> movies)
+Classes-> UpdateMovieBusiness.java
+		  ConnectionUtil.java
+		  
+-----------------------------------------------------------------------------------
+11.	Find the set of movies  as per the review comments  done business more than entered amount descending order of amount
+Map<<Language>,Set<Movies> businessDone(double amount)
+
+BusinessDoneDescending (with main);
